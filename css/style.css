@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+#app {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
 body {
     background-color: #555;
     height: 100vh;
@@ -11,4 +18,31 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    position: absolute;
+    top: 0;
+}
+.control {
+    background-color: #d3f7ff;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}
+.btn-control {
+    width: 120px;
+    height: 120px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background-color: #40407a;
+    border: 1rem solid #2c2c54;
+    color: #fff;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.btn-control:active {
+    background-color: #706fd3;
+    border: 1rem solid #474787;
 }
