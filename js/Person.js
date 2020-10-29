@@ -1,0 +1,8 @@
+class Person {
+    constructor() {
+
+    }
+    draw() {
+        
+    }
+}

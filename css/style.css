@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #555;
+    height: 100vh;
+}
+.game {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
