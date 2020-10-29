@@ -7,12 +7,15 @@
     width: 100%;
     max-width: 600px;
     display: flex;
+    height: 100vh;
     flex-direction: column;
     margin: 0 auto;
+    position: relative;
 }
 body {
     background-color: #555;
     height: 100vh;
+    background-color:#d3f7ff ;
 }
 .game {
     width: 100%;
